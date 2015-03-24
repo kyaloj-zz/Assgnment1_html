@@ -1,10 +1,11 @@
- header {
+  header {
 	background-image: url("/home/justus/Assignments/Assignment_1/assets/backgrounds/h_img.jpg");
     min-height: 100%;
     height: auto;
     width: 100%;
     text-align: center;
     background-size: 100%;
+    -moz-background-size: cover;
 
 
     
@@ -19,3 +20,8 @@
 
 	background-image: url("/home/justus/Assignments/Assignment_1/assets/backgrounds/c_image.jpg")
 }
+
+footer{
+	text-align: center;
+}
+
