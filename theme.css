@@ -1,61 +1,9 @@
- body {
- 	width: auto;
- 	height: auto;
- }
 
-  header {
+
+ .pager {
 	background-image: url("/home/justus/Assignments/Assignment_1/assets/backgrounds/h_img.jpg");
-    background-size: cover;
-    background-position: fill;
-    height: 100%;
-    text-align: center;
+    
 
-}
-
-#logo {
-	height: 31.3%;
-
-}
-
-#logo_img{
-	margin-top: 14%;
-	margin-left: 2.7%;
-	width: 45px;
-	height: auto;
-
-}
-
- #st_header{
-	color: white;
-	font-size: 48px;
-	margin-top: 7.3%;
-	height: 20px;
-	margin-left: 3.5%;
-	font-family: helvetica;
-
-}
-
-#nd_header{
-	margin-top: 0%;
-	color: white;
-	font-size: 48px;
-	height: 50px;
-	margin-left: 4.4%;
-
-	font-family: helvetica;
-
-}
-
-#amazing {
-	color: white;
-	font-size: 12px;
-	margin-left: 1.6%;
-
-	font-family: sans-serif;
-}
-
-#mse_clk{
-	margin-bottom: 3%;
 }
 
 
