@@ -1,21 +1,43 @@
 
-
- .pager {
+ .my_header {
 	background-image: url("/home/justus/Assignments/Assignment_1/assets/backgrounds/h_img.jpg");
+	height: 100%;
+	background-size: cover;
+	text-align: center;
     
 
 }
 
 
 
+
+
+
+
+
 .services {
 
 	background-image: url("/home/justus/Assignments/Assignment_1/assets/backgrounds/s_image.jpg");
+	height: 50%;
+	background-size: cover;
+}
+.images{
+
+	width: 90%;
+}
+.images img{
+
+	padding: 2% 2%;
 }
 
-.contact_us{
+.contact_us_k{
 
-	background-image: url("/home/justus/Assignments/Assignment_1/assets/backgrounds/c_image.jpg")
+	background-image: url("/home/justus/Assignments/Assignment_1/assets/backgrounds/c_image.jpg");
+	height: 100px;
+	background-size: cover;
+	margin-left: 0px;
+
+	
 }
 
 footer{

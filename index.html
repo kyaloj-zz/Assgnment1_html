@@ -1,58 +1,51 @@
 <!DOCTYPE html5>
-<html>
+<html lang="en">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Page Title</title>
-  <link rel="stylesheet" type="text/css" href="theme.css">
+  
   <link rel="stylesheet" type="text/css" href="/home/justus/Assignments/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="theme.css">
 </head>
 
 <body>
 
+<div class="container-fluid">
 
-<div class="container">
 
-    <div class="pager">
-           <div class="row">
+         <div class="row">
      	
      	            <div class="col-md-12">
 
+                            <div class="my_header">
+
                         <img id="logo_img" src="/home/justus/Assignments/Assignment_1/assets/logo/logo.png">
 
+     	  
+     	                   <h3>
+     	                     WELCOME
+     	                   </h3> 
+
+                         <h3>
+                            TO DELANI
+                         </h3>
+
+     	                    <p id="amazing">
+
+                          AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIROMENT
+     	                   </p>
+
+                         <img  src="Assignment_1/assets/mouse_click.png">
+
+
+                              </div>
+
+                              
      	            </div>
-           </div>
-
-
-          <div class="row">
-          
-               <div class="col-md-12">
-     	             <h3>
-     	                WELCOME
-     	             </h3> 
-
-                    <h3>
-                       TO DELANI
-                    </h3>
-
-     	              <p id="amazing">
-
-                      AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIROMENT
-     	              </p>
-
-              
-               </div>
-          </div>     
-
-
-      
-          <div class="row">
-                <div class="col-md-12">
-
-     	             <img  src="Assignment_1/assets/mouse_click.png">
-     	         </div>
     
           </div>
 
-   </div>
+ 
 
 
     <div class="row">
@@ -64,7 +57,7 @@
 
     <div>
 
-    <div class="row">
+    <div class="row" >
          <div class="col-md-12">
          	<p>
 
@@ -116,67 +109,84 @@
 
 
     <div class="row">
-
-        <div class="col-sm-1" />
+         <div class="col-md-12">
         <!--this div if the "what we do" part-->
-        	<h3>
-        	   WHAT WE DO
-        	</h3>   
+        	      <h3>
+        	          WHAT WE DO
+        	      </h3>   
         </div>
 
+  </div>
 
-        <div class="col-sm-3">
-        <!--this one is for the three services offered. I am going to nest 3 other divs for them in this div-->
+
+  <div class="row">
+  <!--this ones are for the three services offered. I am going to nest 3 other divs for them in this div-->
+         <div class="col-md-4">
+                
         	
-        	<div>
-        	     <img src="/home/justus/Assignments/Assignment_1/assets/services_icons/design_icon.png">
-        	     <p>
-        		  Our design practice offers a full range of services including branding strategy, interaction and visual design and user experience testing.
-        		  Throughout your project, our designers create and implement visual designs and workflows, solicit user feedback, and work with you to make sure what gets built is what is needed.
-        	     </p>
-        	</div>
+        	          <img src="/home/justus/Assignments/Assignment_1/assets/services_icons/design_icon.png">
+        	          <p>
+        		        Our design practice offers a full range of services including branding strategy, interaction and visual design and user experience testing.
+        		        Throughout your project, our designers create and implement visual designs and workflows, solicit user feedback, and work with you to make sure what gets built is what is needed.
+        	          </p>
+        </div>
 
-        	<div>
+        <div class="col-md-4">
         		<img src="/home/justus/Assignments/Assignment_1/assets/services_icons/dev_icon.png">
 
         		<p>
         			All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test and improve code on daily basis,usign proven practices such as test-driven development and pair programing.
         		</p>
-        	</div>
+        </div>
 
-        	<div>
+        <div class="col-md-4">
         		<img src="/home/justus/Assignments/Assignment_1/assets/services_icons/product_icon.png">
 
         		<p>
         			Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.
         		</p>
-        	</div>
-
-
         </div>
 
-    	
+
     </div>
+
+    	
+   
 
 
 
 
 
     
-    <div class="portfolio">
+    <div class="row">
+         <div class="col-md-12">
          <!-- for the Portfolio section now-->
-         <h3>
-            PORTFOLIO
-         </h3>
-         <!-- we now set the first column of the portfolio div/containter-->
-         <div >
-              <div class="left_upper_block">
+                 <h3>
+                    PORTFOLIO
+                 </h3>
+         </div>
+    </div>    
+    
+
+
+    
+         <!-- we now set the 1st columns of the portfolio div/containter-->
+    <div class="images">    
+    <div class="row">
+          
+
+          <div class="col-md-3">
                   
                   <a href="https://www.khanacademy.org/computing/computer-programming">
 
                   <img src="file:///home/justus/Assignments/Assignment_1/assets/portfolio/work4.jpg">
-
+         
                   </a>
+          </div>        
+
+
+
+          <div class="col-md-3">
 
                   <a href="http://www.reddit.com/r/programming/">
 
@@ -184,54 +194,73 @@
 
                   </a>
 
-              	
-              </div>
-              <div class="right_upper_block">
+          </div>
+           
+                
+          <div class="col-md-3">
               	  
                   <a href="http://en.wikipedia.org/wiki/Programming">
 
               	  <img src="/home/justus/Assignments/Assignment_1/assets/portfolio/work2.jpg">
 
               	  </a>
+          </div>
+
+
+          <div class="col-md-3">
 
               	  <a href="http://en.wikipedia.org/wiki/Computer_programming">
 
               	  <img src="/home/justus/Assignments/Assignment_1/assets/portfolio/work1.jpg">
 
               	  </a>
-              </div>
-         	
-         </div>
+          </div>
+
          <!-- end of first column and begining of the second column of portfolio now-->
-         <div> 
-              <div class="left_bottom_block">
+
+   
+   <div class="row">        
+             
+             <div class="col-md-3">
+
                    <a href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_image_link">
 
                    <img src="/home/justus/Assignments/Assignment_1/assets/portfolio/work5.jpg">
                    
                    </a>
+             </div>
+
+
+             
+              <div class="col-md-3">      
 
                    <a href="http://cssxcountry.codeschool.com/levels/1/challenges/5">
                    <img src="/home/justus/Assignments/Assignment_1/assets/portfolio/work6.jpg">
                    </a>
+              </div>    
+
+
               	
-              </div>
-              <div class="right_bottom_block">
+              <div class="col-md-3">
               	  
                   <a href="http://cssxcountry.codeschool.com/levels/1">
               	  <img src="/home/justus/Assignments/Assignment_1/assets/portfolio/work7.jpg">
-
+            
               	  </a>
+              </div>   
+              
+
+
+              <div class="col-md-3"> 
 
                   <a href="https://www.codeschool.com/courses/css-cross-country">  
               	  <img src="/home/justus/Assignments/Assignment_1/assets/portfolio/work8.jpg">
 
               	  </a>
               </div>
-         	
-         </div>
-    	
     </div>
+    </div>
+      
 
 
 
@@ -240,34 +269,57 @@
 
    <!--end of div portfolio, begining of div for contacts-->
 
+<div class="contact_us_k">
+    <div class="row">
 
-    <div class="contact_us">
-          <h3>
-          	CONTACT US
-          </h3>
+             
+        <div class="col-md-12">
+             
+                   <h3>
+          	     CONTACT US
+                    </h3>
+        </div>
 
-          <div class="inf0_request">
+   </div>
 
-                <div>
-                	<input type="Name" placeholder="Name..." >
-                	<input type="Email" placeholder="Email...">
-                </div>
+    <div class="row"> 
+        
+        <div class="col-md-5">
+              <input type="Name" placeholder="Name..." >
+        </div>    
 
-                <div>
-                	 <input type="message" placeholder="Your Message here">
-                </div>
+        <div class="col-md-2">
+              
+        </div>         
+
+        <div class="col-md-5">
+              <input type="Email" placeholder="Email...">
+        </div>
+     </div>   
+
+
+
+    <div class="row">             
+                	 
+              <div class="col-md-12">
+                   <input type="message" placeholder="Your Message here">
+              </div>
           	
-          </div>
-    	
     </div>
+</div>    
+    	
+    
 
 
 
 
-    <footer>
-        <a href="file:///home/justus/Assignments/Assignment_1/assets/social_icons/twitter.png">
-    	   <img src="file:///home/justus/Assignments/Assignment_1/assets/social_icons/twitter.png">
-    	</a>
+<footer>
+
+    <div class="row">
+    <div class="col-md-12">
+          <a href="file:///home/justus/Assignments/Assignment_1/assets/social_icons/twitter.png">
+    	        <img src="file:///home/justus/Assignments/Assignment_1/assets/social_icons/twitter.png">
+    	    </a>
 
     	<a href="https://dribbble.com/">
     	   <img src="/home/justus/Assignments/Assignment_1/assets/social_icons/dribble.png">
@@ -304,15 +356,24 @@
     	<a href="https://www.flickr.com/">
     	<img src="/home/justus/Assignments/Assignment_1/assets/social_icons/flickr.png">
     	</a>
+</div>
+</div>
 
+<div class="row">
+    <div class="col-md-12">
     	<p> 
     	   DELANI STUDIOS.
     	</p>
+    
 
     	<p>
     		2015
     	</p>
-    </footer>
+
+    </div>  
+ </div>
+
+</footer>
 
 
 </div>
